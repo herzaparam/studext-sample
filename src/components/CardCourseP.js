@@ -9,7 +9,7 @@ function CardCourseP() {
                 <div className={styles["top-right"]}>
                 <div className={styles["top-right-ele"]}>
                     <p className={styles["txt-bl"]}>TOEFL</p>
-                    <p>{">"}</p>
+                    <button>{">"}</button>
                 </div>
                 <div className={styles["top-right-el"]}>
                 <img src="Rectangle 367.png" alt="" />

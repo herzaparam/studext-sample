@@ -28,6 +28,18 @@
     align-items: center;
     justify-content: space-between;
 }
+.top-right-ele > button {
+    color: #008FFF;
+    font-weight: 800;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.top-right-ele > button:hover {
+    cursor: pointer;
+    color: #53BAC1;
+}
 .top > img {
     height: 90px;
     width: 90px;

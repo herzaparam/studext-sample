@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "../../styles/CardRank.module.css"
 
-function CardRank({className}) {
+function CardRank({className, name}) {
     return (
         <div className={styles[`${className}`]}>
             <div className={styles["number"]}>

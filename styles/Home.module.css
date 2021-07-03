@@ -39,11 +39,12 @@
   padding: .5rem 1rem;
 }
 .story {
-  flex-basis: 30%;
+  flex-basis: 35%;
   margin-right: .5rem;
 }
 .statistics {
   flex-grow: 1;
+  max-height: 13rem;
   margin-right: .5rem;
 }
 .main-right {
@@ -117,4 +118,12 @@
   flex-wrap: nowrap;
   height: min-content;
   overflow-x: auto;
+}
+@media (max-width: 575.98px) {
+  .main {
+    flex-direction: column;
+  }
+  .container {
+    height: 133vh;
+  }   
 }

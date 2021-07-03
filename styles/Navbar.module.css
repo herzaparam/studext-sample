@@ -2,5 +2,63 @@
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-wrap: nowrap;
+    align-items: center;
     padding: 5px 20px;
+}
+.cont > button {
+    border: none;
+    outline: none;
+    background: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #5C5C5C;
+    padding: 0 1.5rem;
+}
+.cont > button:hover {
+  color: #008FFF;
+  cursor: pointer;
+}
+.icon-img {
+    margin-right: .5rem;
+    height: 15px;
+}
+.search-bar {
+    flex-grow: 1;
+    background: #F5F5F5;
+    border-radius: 20px;
+    height: 60%;
+    padding: 0 1rem;
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+}
+.search-bar > img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.search-bar > input {
+    border: none;
+    outline: none;
+    background: none;
+    width: 100%;
+    height: 100%;
+}
+.toggle {
+    width: 50px;
+    display: none;
+}
+.toggle:after {
+    content: '\2807';
+    font-size: 22px;
+    }
+@media (max-width: 575.98px) {
+    .btn-nav{
+        display: none;
+    }
+    .toggle {
+        display: block;
+    }
 }

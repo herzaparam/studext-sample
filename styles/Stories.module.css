@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .6rem;
+    margin-right: 1rem;
+}
+.container > p {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+}
+.stories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
+    background: linear-gradient(to right, #00C6FB, #005BEA);
+    
+}
+.stories > img {
+    width: 3.6em;
+    height: 3.6em;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid white;
+    margin: 0;
+}
